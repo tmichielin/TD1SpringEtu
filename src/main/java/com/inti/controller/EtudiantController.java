@@ -33,7 +33,7 @@ public class EtudiantController {
 		
 		m.addAttribute("e", e);
 		
-		return "enregistrer";
+		return "enregistrerEtudiant";
 	}
 	
 	@GetMapping("listerEtudiants")
@@ -64,7 +64,7 @@ public class EtudiantController {
 	@GetMapping("inscriptionE")
 	public String inscriptionEtudiant()
 	{
-		return "inscription";
+		return "inscriptionE";
 	}
 	
 	@PostMapping("saveEtuAvecForm")
